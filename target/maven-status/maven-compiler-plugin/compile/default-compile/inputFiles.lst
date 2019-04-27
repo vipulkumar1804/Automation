@@ -1,6 +1,9 @@
-D:\GIT\Gojek\src\main\java\Pages\HomePage.java
-D:\GIT\Gojek\src\main\java\Pages\Login.java
-D:\GIT\Gojek\src\main\java\Pages\AddCart.java
-D:\GIT\Gojek\src\main\java\Common\Utilities.java
-D:\GIT\Gojek\src\main\java\Gojek\test.java
-D:\GIT\Gojek\src\main\java\Pages\Search.java
+D:\GIT_Repo\Automation\src\main\java\Pages\HomePage.java
+D:\GIT_Repo\Automation\src\main\java\Common\Utilities.java
+D:\GIT_Repo\Automation\src\main\java\Pages\Search.java
+D:\GIT_Repo\Automation\src\main\java\Pages\PopUp.java
+D:\GIT_Repo\Automation\src\main\java\Pages\Login.java
+D:\GIT_Repo\Automation\src\main\java\Pages\AddCart.java
+D:\GIT_Repo\Automation\src\main\java\Pages\CloseButton.java
+D:\GIT_Repo\Automation\src\main\java\Pages\Cart.java
+D:\GIT_Repo\Automation\src\main\java\Pages\Quantity.java
