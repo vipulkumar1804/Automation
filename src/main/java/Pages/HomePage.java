@@ -13,7 +13,7 @@ public class HomePage {
 	 static String department="//a[@id='nav-link-shopall']";
 	 static String electronics="//span[contains(text(),'Electronics')]";
 	 static String headPhones= "//span[contains(text(),'Headphones')]";
-	 static String availablePhone="img[data-image-index='']";
+	 static String availablePhone="img[data-image-index='0']";
 	 public static void addProduct(WebDriver driver) {
 		 WebElement element = driver.findElement(By.xpath(department));
 		 
