@@ -13,11 +13,11 @@ public class HomePage {
 	 static String department="//a[@id='nav-link-shopall']";
 	 static String electronics="//span[contains(text(),'Electronics')]";
 	 static String headPhones= "//span[contains(text(),'Headphones')]";
-	 static String availablePhone="img[data-image-index='0']";
+	 static String availablePhone="img[data-image-index='']";
 	 public static void addProduct(WebDriver driver) {
 		 WebElement element = driver.findElement(By.xpath(department));
 		 
-		    Actions  = new Actions(driver);
+		    Actions action = new Actions(driver);
 	        action.moveToElement(element).build().perform();
 	        WebDriverWait wait = new WebDriverWait(driver, 15);
 	        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(electronics))).click();
