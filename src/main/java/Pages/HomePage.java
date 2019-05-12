@@ -17,7 +17,7 @@ public class HomePage {
 	 public static void addProduct(WebDriver driver) {
 		 WebElement element = driver.findElement(By.xpath(department));
 		 
-		    Actions action = new Actions(driver);
+		    Actions  = new Actions(driver);
 	        action.moveToElement(element).build().perform();
 	        WebDriverWait wait = new WebDriverWait(driver, 15);
 	        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(electronics))).click();
