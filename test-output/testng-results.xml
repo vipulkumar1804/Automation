@@ -1,25 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="161638" started-at="2019-04-21T13:48:12Z" finished-at="2019-04-21T13:50:54Z">
+  <suite name="Default suite" duration-ms="16478" started-at="2019-05-19T14:48:44Z" finished-at="2019-05-19T14:49:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="161638" started-at="2019-04-21T13:48:12Z" finished-at="2019-04-21T13:50:54Z">
-      <class name="Checkout.CheckOutUser">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Checkout.CheckOutUser@cb644e]" name="setup" is-config="true" duration-ms="23376" started-at="2019-04-21T13:48:12Z" finished-at="2019-04-21T13:48:36Z">
+    <test name="Default test" duration-ms="16478" started-at="2019-05-19T14:48:44Z" finished-at="2019-05-19T14:49:00Z">
+      <class name="Common.Parallel">
+        <test-method status="PASS" signature="setUp(org.openqa.selenium.Platform, java.lang.String, java.lang.String)[pri:0, instance:Common.Parallel@d80b78]" name="setUp" duration-ms="15445" started-at="2019-05-19T14:48:44Z" data-provider="Set_Environment" finished-at="2019-05-19T14:48:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WIN8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[70.0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="userChkOut()[pri:0, instance:Checkout.CheckOutUser@cb644e]" name="userChkOut" duration-ms="137899" started-at="2019-04-21T13:48:36Z" finished-at="2019-04-21T13:50:54Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp(org.openqa.selenium.Platform, java.lang.String, java.lang.String)[pri:0, instance:Common.Parallel@d80b78]" name="setUp" duration-ms="15429" started-at="2019-05-19T14:48:44Z" data-provider="Set_Environment" finished-at="2019-05-19T14:48:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[WIN8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[58.0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userChkOut -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Checkout.CheckOutUser@cb644e]" name="tearDown" is-config="true" duration-ms="294" started-at="2019-04-21T13:50:54Z" finished-at="2019-04-21T13:50:54Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Common.Parallel@d80b78]" name="tearDown" is-config="true" duration-ms="780" started-at="2019-05-19T14:48:59Z" finished-at="2019-05-19T14:49:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Checkout.CheckOutUser -->
+      </class> <!-- Common.Parallel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
